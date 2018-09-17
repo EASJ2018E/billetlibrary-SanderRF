@@ -4,17 +4,17 @@ using System.Text;
 
 namespace TicketLibrary
 {
-    public class MC
+    public class MC : Vehicles
     {
-        public string Numberplate { get; set; }
+        //public string Numberplate { get; set; }
 
-        public DateTime Date { get; set; }
+        //public DateTime Date { get; set; }
 
         /// <summary>
         /// The Method is a double returning 125
         /// </summary>
         /// <returns></returns>
-        public double Price()
+        public override double Price()
         {
             return 125;
         }
@@ -22,7 +22,7 @@ namespace TicketLibrary
         /// The Method is a string returning MC
         /// </summary>
         /// <returns></returns>
-        public string Vehicle()
+        public override string Vehicle()
         {
             return "MC";
         }

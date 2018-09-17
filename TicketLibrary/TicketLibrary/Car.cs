@@ -2,17 +2,17 @@
 
 namespace TicketLibrary
 {
-    public class Car
+    public class Car : Vehicles
     {
-        public string Numberplate { get; set; }
+        //public string Numberplate { get; set; }
 
-        public DateTime Date { get; set; }
+        //public DateTime Date { get; set; }
 
         /// <summary>
         /// The Method is a double returning 240
         /// </summary>
         /// <returns></returns>
-        public double Price()
+        public override double Price()
         {
             return 240;
         }
@@ -20,7 +20,7 @@ namespace TicketLibrary
         /// The Method is a string returning Bil
         /// </summary>
         /// <returns></returns>
-        public string Vehicle()
+        public override string Vehicle()
         {
             return "Bil";
         }

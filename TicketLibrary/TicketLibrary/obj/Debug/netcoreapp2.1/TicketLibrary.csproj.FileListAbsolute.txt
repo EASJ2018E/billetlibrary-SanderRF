@@ -7,3 +7,12 @@ C:\source\Programming\BilletLibrary\billetlibrary-SanderRF\TicketLibrary\TicketL
 C:\source\Programming\BilletLibrary\billetlibrary-SanderRF\TicketLibrary\TicketLibrary\obj\Debug\netcoreapp2.1\TicketLibrary.AssemblyInfo.cs
 C:\source\Programming\BilletLibrary\billetlibrary-SanderRF\TicketLibrary\TicketLibrary\obj\Debug\netcoreapp2.1\TicketLibrary.dll
 C:\source\Programming\BilletLibrary\billetlibrary-SanderRF\TicketLibrary\TicketLibrary\obj\Debug\netcoreapp2.1\TicketLibrary.pdb
+C:\source\Programming\TicketLibrary\TicketLibrary\TicketLibrary\bin\Debug\netcoreapp2.1\TicketLibrary.deps.json
+C:\source\Programming\TicketLibrary\TicketLibrary\TicketLibrary\bin\Debug\netcoreapp2.1\TicketLibrary.dll
+C:\source\Programming\TicketLibrary\TicketLibrary\TicketLibrary\bin\Debug\netcoreapp2.1\TicketLibrary.pdb
+C:\source\Programming\TicketLibrary\TicketLibrary\TicketLibrary\obj\Debug\netcoreapp2.1\TicketLibrary.csprojAssemblyReference.cache
+C:\source\Programming\TicketLibrary\TicketLibrary\TicketLibrary\obj\Debug\netcoreapp2.1\TicketLibrary.csproj.CoreCompileInputs.cache
+C:\source\Programming\TicketLibrary\TicketLibrary\TicketLibrary\obj\Debug\netcoreapp2.1\TicketLibrary.AssemblyInfoInputs.cache
+C:\source\Programming\TicketLibrary\TicketLibrary\TicketLibrary\obj\Debug\netcoreapp2.1\TicketLibrary.AssemblyInfo.cs
+C:\source\Programming\TicketLibrary\TicketLibrary\TicketLibrary\obj\Debug\netcoreapp2.1\TicketLibrary.dll
+C:\source\Programming\TicketLibrary\TicketLibrary\TicketLibrary\obj\Debug\netcoreapp2.1\TicketLibrary.pdb

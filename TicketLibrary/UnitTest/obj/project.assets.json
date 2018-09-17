@@ -5745,11 +5745,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\source\\Programming\\BilletLibrary\\billetlibrary-SanderRF\\TicketLibrary\\UnitTest\\UnitTest.csproj",
+      "projectUniqueName": "C:\\source\\Programming\\TicketLibrary\\TicketLibrary\\UnitTest\\UnitTest.csproj",
       "projectName": "UnitTest",
-      "projectPath": "C:\\source\\Programming\\BilletLibrary\\billetlibrary-SanderRF\\TicketLibrary\\UnitTest\\UnitTest.csproj",
+      "projectPath": "C:\\source\\Programming\\TicketLibrary\\TicketLibrary\\UnitTest\\UnitTest.csproj",
       "packagesPath": "C:\\Users\\Sander\\.nuget\\packages\\",
-      "outputPath": "C:\\source\\Programming\\BilletLibrary\\billetlibrary-SanderRF\\TicketLibrary\\UnitTest\\obj\\",
+      "outputPath": "C:\\source\\Programming\\TicketLibrary\\TicketLibrary\\UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5768,8 +5768,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\source\\Programming\\BilletLibrary\\billetlibrary-SanderRF\\TicketLibrary\\TicketLibrary\\TicketLibrary.csproj": {
-              "projectPath": "C:\\source\\Programming\\BilletLibrary\\billetlibrary-SanderRF\\TicketLibrary\\TicketLibrary\\TicketLibrary.csproj"
+            "C:\\source\\Programming\\TicketLibrary\\TicketLibrary\\TicketLibrary\\TicketLibrary.csproj": {
+              "projectPath": "C:\\source\\Programming\\TicketLibrary\\TicketLibrary\\TicketLibrary\\TicketLibrary.csproj"
             }
           }
         }

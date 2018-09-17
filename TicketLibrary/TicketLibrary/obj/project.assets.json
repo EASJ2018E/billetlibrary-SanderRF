@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\source\\Programming\\BilletLibrary\\billetlibrary-SanderRF\\TicketLibrary\\TicketLibrary\\TicketLibrary.csproj",
+      "projectUniqueName": "C:\\source\\Programming\\TicketLibrary\\TicketLibrary\\TicketLibrary\\TicketLibrary.csproj",
       "projectName": "TicketLibrary",
-      "projectPath": "C:\\source\\Programming\\BilletLibrary\\billetlibrary-SanderRF\\TicketLibrary\\TicketLibrary\\TicketLibrary.csproj",
+      "projectPath": "C:\\source\\Programming\\TicketLibrary\\TicketLibrary\\TicketLibrary\\TicketLibrary.csproj",
       "packagesPath": "C:\\Users\\Sander\\.nuget\\packages\\",
-      "outputPath": "C:\\source\\Programming\\BilletLibrary\\billetlibrary-SanderRF\\TicketLibrary\\TicketLibrary\\obj\\",
+      "outputPath": "C:\\source\\Programming\\TicketLibrary\\TicketLibrary\\TicketLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
