@@ -20,6 +20,7 @@ namespace UnitTest
             Assert.AreEqual(price, mc.Price());
 
         }
+
         [TestMethod]
         public void VehicleTest()
         {
@@ -32,8 +33,8 @@ namespace UnitTest
             //Assert
             Assert.AreEqual(vehicle, mc.Vehicle());
         }
-        [TestMethod]
 
+        [TestMethod]
         public void DiscountTest()
         {
             //Arrange

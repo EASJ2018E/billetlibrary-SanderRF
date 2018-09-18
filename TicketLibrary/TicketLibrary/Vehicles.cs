@@ -36,13 +36,10 @@ namespace TicketLibrary
         public virtual string LicensePlate(string number)
         {
             if (number.Length>7)
-            {
                 throw new ArgumentException("The number plate cannot contain more than 7 characters");
-            }
-            else
-            {
+            
                 return number;
-            }
+
         }
     }
 }

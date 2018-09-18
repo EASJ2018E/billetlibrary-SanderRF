@@ -19,6 +19,7 @@ namespace UnitTest
             //Assert
             Assert.AreEqual(price,car.Price());
         }
+
         [TestMethod]
         public void VehicleTest()
         {
