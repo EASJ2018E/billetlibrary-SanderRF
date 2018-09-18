@@ -4,10 +4,6 @@ namespace TicketLibrary
 {
     public class Car : Vehicles
     {
-        //public string Numberplate { get; set; }
-
-        //public DateTime Date { get; set; }
-
         /// <summary>
         /// The Method is a double returning 240
         /// </summary>
@@ -23,6 +19,11 @@ namespace TicketLibrary
         public override string Vehicle()
         {
             return "Bil";
+        }
+
+        public override double DiscountPrice()
+        {
+            return Price() * 0.95;
         }
     }
 }

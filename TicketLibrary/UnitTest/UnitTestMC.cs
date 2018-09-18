@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.DependencyModel.Resolution;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TicketLibrary;
 
 namespace UnitTest
@@ -31,6 +30,18 @@ namespace UnitTest
 
             //Assert
             Assert.AreEqual(vehicle, mc.Vehicle());
+        }
+        [TestMethod]
+        public void DiscountTest()
+        {
+            //Arrange
+            var mc = new MC();
+
+            //Act
+            double discount = 118.75;
+
+            //Assert
+            Assert.AreEqual(discount, mc.DiscountPrice());
         }
     }
 }

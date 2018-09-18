@@ -1,15 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace TicketLibrary
 {
     public class MC : Vehicles
     {
-        //public string Numberplate { get; set; }
-
-        //public DateTime Date { get; set; }
-
         /// <summary>
         /// The Method is a double returning 125
         /// </summary>
@@ -25,6 +19,11 @@ namespace TicketLibrary
         public override string Vehicle()
         {
             return "MC";
+        }
+
+        public override double DiscountPrice()
+        {
+            return Price() * 0.95;
         }
     }
 }
