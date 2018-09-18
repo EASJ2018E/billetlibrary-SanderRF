@@ -1,3 +1,4 @@
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TicketLibrary;
 
@@ -39,9 +40,21 @@ namespace UnitTest
 
             //Act
             double discount = 228;
-
+            
             //Assert
             Assert.AreEqual(discount, car.DiscountPrice());
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void LicenseTest()
+        {
+            //Arrange
+            var car = new Car();
+
+            //Assert
+            Assert.AreEqual("12345678".Length, car.LicensePlate("24681012").Length);
+            Assert.Fail();
         }
     }
 }

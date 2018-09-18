@@ -8,17 +8,41 @@ namespace TicketLibrary
 {
     public abstract class Vehicles
     {
-        private string Numberplate { get; set; }
 
-        private DateTime Date { get; set; }
+        //public string LicensePlate {get ; set; }
+        //public DateTime Date { get; set; }
 
+        /// <summary>
+        /// The Method is a double which returns price for a ticket
+        /// </summary>
+        /// <returns></returns>
         public abstract double Price();
 
+        /// <summary>
+        /// The Method is a string which returns what type of vehicle it is
+        /// </summary>
+        /// <returns></returns>
         public abstract string Vehicle();
 
+        /// <summary>
+        /// The method is a double which returns price with 5% discount
+        /// </summary>
+        /// <returns></returns>
         public virtual double DiscountPrice()
         {
             return Price() * 0.95;
         }
-}
+
+        public virtual string LicensePlate(string number)
+        {
+            if (number.Length>7)
+            {
+                throw new ArgumentException("The number plate cannot contain more than 7 characters");
+            }
+            else
+            {
+                return number;
+            }
+        }
+    }
 }

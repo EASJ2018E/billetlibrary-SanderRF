@@ -4,10 +4,6 @@ namespace TicketLibrary
 {
     public class MC : Vehicles
     {
-        /// <summary>
-        /// The Method is a double returning 125
-        /// </summary>
-        /// <returns></returns>
         public override double Price()
         {
             return 125;

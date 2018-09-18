@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TicketLibrary;
 
 namespace UnitTest
@@ -32,16 +33,29 @@ namespace UnitTest
             Assert.AreEqual(vehicle, mc.Vehicle());
         }
         [TestMethod]
+
         public void DiscountTest()
         {
             //Arrange
             var mc = new MC();
-
+            
             //Act
             double discount = 118.75;
 
             //Assert
             Assert.AreEqual(discount, mc.DiscountPrice());
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void LicenseTest()
+        {
+            //Arrange
+            var mc = new MC();
+
+            //Assert
+            Assert.AreEqual("12345678".Length, mc.LicensePlate("24681012").Length);
+            Assert.Fail();
         }
     }
 }
