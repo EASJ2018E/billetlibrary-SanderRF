@@ -20,10 +20,5 @@ namespace TicketLibrary
         {
             return "Bil";
         }
-
-        public override double DiscountPrice()
-        {
-            return Price() * 0.95;
-        }
     }
 }

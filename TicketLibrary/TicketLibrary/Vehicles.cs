@@ -16,6 +16,9 @@ namespace TicketLibrary
 
         public abstract string Vehicle();
 
-        public abstract double DiscountPrice();
-    }
+        public virtual double DiscountPrice()
+        {
+            return Price() * 0.95;
+        }
+}
 }
