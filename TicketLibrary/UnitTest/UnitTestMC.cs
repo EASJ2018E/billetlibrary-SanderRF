@@ -54,8 +54,11 @@ namespace UnitTest
             //Arrange
             var mc = new MC();
 
+            //Act
+            mc.LicenseNumber = "24681012";
+
             //Assert
-            Assert.AreEqual("12345678".Length, mc.LicensePlate("24681012").Length);
+            Assert.AreEqual("12345678".Length, mc.LicensePlate().Length);
             Assert.Fail();
         }
     }

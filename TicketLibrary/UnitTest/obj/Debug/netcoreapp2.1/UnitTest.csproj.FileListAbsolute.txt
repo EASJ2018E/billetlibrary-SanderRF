@@ -32,3 +32,4 @@ C:\source\Programming\TicketLibrary\TicketLibrary\UnitTest\obj\Debug\netcoreapp2
 C:\source\Programming\TicketLibrary\TicketLibrary\UnitTest\obj\Debug\netcoreapp2.1\UnitTest.csproj.CopyComplete
 C:\source\Programming\TicketLibrary\TicketLibrary\UnitTest\obj\Debug\netcoreapp2.1\UnitTest.dll
 C:\source\Programming\TicketLibrary\TicketLibrary\UnitTest\obj\Debug\netcoreapp2.1\UnitTest.pdb
+C:\source\Programming\TicketLibrary\TicketLibrary\UnitTest\bin\Debug\netcoreapp2.1\TicketLibrary.xml

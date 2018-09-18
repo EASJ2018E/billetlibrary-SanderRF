@@ -16,3 +16,4 @@ C:\source\Programming\TicketLibrary\TicketLibrary\TicketLibrary\obj\Debug\netcor
 C:\source\Programming\TicketLibrary\TicketLibrary\TicketLibrary\obj\Debug\netcoreapp2.1\TicketLibrary.AssemblyInfo.cs
 C:\source\Programming\TicketLibrary\TicketLibrary\TicketLibrary\obj\Debug\netcoreapp2.1\TicketLibrary.dll
 C:\source\Programming\TicketLibrary\TicketLibrary\TicketLibrary\obj\Debug\netcoreapp2.1\TicketLibrary.pdb
+C:\source\Programming\TicketLibrary\TicketLibrary\TicketLibrary\bin\Debug\netcoreapp2.1\TicketLibrary.xml

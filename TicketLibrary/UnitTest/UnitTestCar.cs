@@ -52,9 +52,12 @@ namespace UnitTest
         {
             //Arrange
             var car = new Car();
+            
+            //Act
+            car.LicenseNumber = "24681012";
 
             //Assert
-            Assert.AreEqual("12345678".Length, car.LicensePlate("24681012").Length);
+            Assert.AreEqual("12345678".Length, car.LicensePlate().Length);
             Assert.Fail();
         }
     }
