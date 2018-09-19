@@ -9,6 +9,9 @@ namespace TicketLibrary
     public abstract class Vehicles
     {
         public string LicenseNumber { get; set; }
+
+        public DateTime Date { get; set; }
+
         /// <summary>
         /// The Method is a double which returns price for a ticket
         /// </summary>
@@ -30,6 +33,11 @@ namespace TicketLibrary
             return Price() * 0.95;
         }
 
+
+        /// <summary>
+        /// Method for Testing LicenseNumber length
+        /// </summary>
+        /// <returns></returns>
         public virtual string LicensePlate()
         {
             if (LicenseNumber.Length>7)

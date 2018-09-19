@@ -22,5 +22,11 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:TicketLibrary.Vehicles.LicensePlate">
+            <summary>
+            Method for Testing LicenseNumber length
+            </summary>
+            <returns></returns>
+        </member>
     </members>
 </doc>
